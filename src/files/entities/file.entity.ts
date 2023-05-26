@@ -26,3 +26,7 @@ export class FileEntity {
 }
 
 
+export enum FileType {
+    PHOTOS = 'photos',
+    TRASH = 'trash'
+  }
